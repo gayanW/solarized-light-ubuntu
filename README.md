@@ -3,7 +3,7 @@ Solarized Light Color Scheme for Gnome Terminal and Vim
 
 Installtion Instructions
 ------
-  - `git clone https://github.com/reversiblean/solarized-light-ubuntu.git`
+  - `git clone --recursive https://github.com/reversiblean/solarized-light-ubuntu.git`
   - Run `./install.sh` to setup dircolors for GNU ls and to update gnome terminal color palete to use solarized light colorscheme.
 
 NOTE: It's advisable to create and use a new profile rather than changing the default gnome terminal profile.

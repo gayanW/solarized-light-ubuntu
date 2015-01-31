@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # setup solarized light for GNU ls
-cp --verbose --force ./dircolors-solarized/dircolors.ansi-light ~/.dircolors
+mkdir --parents ~/.dircolors && cp --verbose --force ./dircolors-solarized/dircolors.ansi-light ~/.dircolors
 eval `dircolors ~/.dircolors`
 
 # setup solarized light color scheme for gnome terminal
